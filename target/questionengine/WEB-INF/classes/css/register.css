@@ -1,0 +1,14 @@
+.error{
+	color: red
+}
+
+.div-span{
+	width: 100%;
+	height: 100%;
+}
+
+.error-span{
+	width: 290px;
+    text-align: left;
+	display: none;
+}
