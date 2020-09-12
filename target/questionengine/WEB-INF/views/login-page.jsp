@@ -30,7 +30,7 @@
 						<i class="fas fa-user"></i>
 					</div>
 					<div class="div">
-						<h5>E-mail</h5>
+						<h5>E-mail-Test</h5>
 						<form:input type="email" path="email" class="input" />
 					</div>
 				</div>

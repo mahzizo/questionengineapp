@@ -81,7 +81,6 @@ public class HelperMethods {
 			byte[] encodeBase64 = Base64.encodeBase64(imageData);
 			base64Encoded = new String(encodeBase64, "UTF-8");
 			String mimeType = imageFile.getContentType();
-//			System.out.println("\n\n" + Arrays.equals(imageData, imageData1) + "\n\n");
 			base64Encoded = "data:" + mimeType + ";base64," + base64Encoded;
 		} catch (IOException e) {
 			e.printStackTrace();
